@@ -1,6 +1,5 @@
 var x=0;
 $.fn.Accordion=function(){
-	var self=this;
 	this.click(function() {
         $('.panel-body').each(function() {
             $(this).slideUp(500);
